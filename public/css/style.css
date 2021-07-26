@@ -1,0 +1,141 @@
+/* body */
+section{
+    padding:135px 0 0 0;
+    position:relative;
+}
+
+img {
+    border: 0px;
+    vertical-align:middle;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Navber */
+
+
+/* main */
+
+h2.line1 {
+
+    margin-bottom: 50px;
+
+}
+
+div.menu {
+
+    margin-bottom: 10px;
+
+}
+
+
+
+/* login */
+
+div.pass p{
+    
+    width:160px;
+    margin:6px 15px 0 0;
+    font-size: 17px;
+    float:left;
+    text-transform:uppercase;
+    text-align:left;
+}
+
+div.email p{
+    
+    width:160px;
+    margin: 6px 15px 0 0;
+    font-size: 17px;
+    float:left;
+    text-transform:uppercase;
+    text-align:left;
+}
+
+div.pass, div.email, div.name{
+
+    margin: 0 0 20px 70px;
+}
+
+/* register */
+
+
+
+div.name2 p{
+
+    width:160px;
+    margin: 6px 0px 0 300px;
+    font-size: 17px;
+    float:left;
+    text-transform:uppercase;
+    
+
+}
+
+div.email2 p{
+    
+    width:150px;
+    margin: 6px 0px 0 310px;
+    font-size: 17px;
+    float:left;
+    text-transform:uppercase;
+    
+}
+
+div.pass2 p{
+
+    width:160px;
+    margin: 6px 0 0 300px;
+    font-size: 17px;
+    float:left;
+    text-transform:uppercase;
+    
+
+}
+
+div.pass3 p{
+
+    width:160px;
+    margin: 6px 0 0 300px;
+    font-size: 17px;
+    float:left;
+    text-transform:uppercase;
+    
+
+}
+
+div.pass2, div.email2, div.name2,  div.pass3{
+
+    margin: 0 0 20px 0;
+}
+
+/* toukou */
+
+div.title, div.comment{
+
+    margin: 0 0 20px 0;
+
+}
+
+div.title p{
+
+    width:160px;
+    margin: 6px 0 0 300px;
+    font-size: 17px;
+    float:left;
+    text-transform:uppercase;
+
+}
+
+div.comment p{
+
+    width:160px;
+    margin: 6px 0 0 300px;
+    font-size: 17px;
+    float:left;
+    text-transform:uppercase;
+    
+}
+
+
+
