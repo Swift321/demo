@@ -13,7 +13,7 @@
 Auth::routes();
 
 Route::get('/', function () {
-    return view('test2');
+    return view('top');
 })->name('home');
  
 Route::get('/top/products/{id}', 'ProductsController@index')->name('product');

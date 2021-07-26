@@ -25,7 +25,7 @@ class ProductsController extends Controller
         })->where('reviews.rev_pro_id', '=', $id)->paginate(5);
         
 
-        return view('test3')->with([
+        return view('menu')->with([
             "product" => $product,
             "reviews" => $showreview,
             "ids" => $id,
