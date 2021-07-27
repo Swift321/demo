@@ -35,7 +35,7 @@ class ProductTableSeeder extends Seeder
             ],
             [
                 'pro_id' => '5',
-                'pro_name' => '',
+                'pro_name' => 'ハンバーグ弁当',
                 'pro_coment' => 'お子様から大人までみんなに人気のハンバーグです。デミグラスソースの旨味と具材感たっぷりのハンバーグでご飯が進みます',
             ],
             [
