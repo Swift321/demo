@@ -13,7 +13,6 @@ class ReviewsTableSeeder extends Seeder
     {
         DB::table('reviews')->insert([
             [
-                'rev_id' => '1',
                 'rev_title' => 'おろし弁当',
                 'rev_coment' => 'おいしかった',
                 'rev_pro_id' => '2',
@@ -21,7 +20,6 @@ class ReviewsTableSeeder extends Seeder
 
             ],
             [
-                'rev_id' => '2',
                 'rev_title' => 'おろし弁当',
                 'rev_coment' => 'うまい',
                 'rev_pro_id' => '2',
