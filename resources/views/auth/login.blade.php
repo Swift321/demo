@@ -1,4 +1,4 @@
-@extends('layout.headder')
+@extends('layout.header2')
 
 @section('mains')
 <article>
