@@ -15,7 +15,7 @@ class ProductsController extends Controller
 {
     public function index(int $id){
     
-        $products = Product::where('pro_id', $id)->get();
+        $product = Product::find($id);
 
         $showreview = DB::table('reviews')
         ->leftJoin('users', function ($join) {
@@ -26,7 +26,7 @@ class ProductsController extends Controller
         
 
         return view('menu')->with([
-            "product" => $products,
+            "product" => $product,
             "reviews" => $showreview,
             "ids" => $id,
          ]);
