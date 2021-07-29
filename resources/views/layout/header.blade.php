@@ -5,15 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no ">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    @if(app('env') == 'production')
+      <!--
       <script src="{{ secure_asset('js/app.js') }}" defer></script>
       <link href="{{ secure_asset('css/app.css') }}" rel="stylesheet">
       <link href="{{ secure_asset('css/style.css') }}" rel="stylesheet">
-    @else
-      <script src="{{ asset('js/app.js') }}" defer></script>
-      <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-      <link href="{{ asset('css/style.css') }}" rel="stylesheet">
-    @endif
+      -->
+      <script src="/public/js/app.js" defer></script>
+      <link href="/public/css/app.css" rel="stylesheet">
+      <link href="/public/css/style.css" rel="stylesheet">
     <title>PORT</title>
   </head>
   <body>
