@@ -15,7 +15,7 @@ class ProductsController extends Controller
 {
     public function index(int $id){
     
-        $products = Product::find($id);
+        $products = Product::where('pro_id', $id)->get();
 
         $showreview = DB::table('reviews')
         ->leftJoin('users', function ($join) {
