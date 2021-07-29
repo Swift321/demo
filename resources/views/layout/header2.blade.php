@@ -7,9 +7,9 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     
-      <script src="/public/js/app.js" defer></script>
-      <link href="/public/css/app.css" rel="stylesheet">
-      <link href="/public/css/style.css" rel="stylesheet">
+    <script src="{{ secure_asset('js/app.js') }}" defer></script>
+      <link href="{{ secure_asset('css/app.css') }}" rel="stylesheet">
+      <link href="{{ secure_asset('css/style.css') }}" rel="stylesheet">
     <title>PORT</title>
   </head>
   <body>
