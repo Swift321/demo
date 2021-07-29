@@ -6,9 +6,15 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     
-    <script src="{{ mix('js/app.js') }}" defer></script>
-    <link href="{{ mix('css/app.css') }}" rel="stylesheet">
-    <link href="{{ mix('css/style.css') }}" rel="stylesheet">
+    @if(app('env') == 'production')
+      <script src="{{ secure_asset('js/app.js') }}" defer></script>
+      <link href="{{ secure_asset('css/app.css') }}" rel="stylesheet">
+      <link href="{{ secure_asset('css/style.css') }}" rel="stylesheet">
+    @else
+      <script src="{{ asset('js/app.js') }}" defer></script>
+      <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+      <link href="{{ asset('css/style.css') }}" rel="stylesheet">
+    @endif
     <title>PORT</title>
   </head>
   <body>
